@@ -7,3 +7,5 @@ stress-tokenizer/
 trained-stress-model/
 
 logs/
+
+.env/
