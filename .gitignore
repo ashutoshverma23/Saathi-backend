@@ -1,0 +1,9 @@
+venv/
+
+node_modules/
+
+stress-model/
+stress-tokenizer/
+trained-stress-model/
+
+logs/
