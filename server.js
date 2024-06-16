@@ -13,7 +13,7 @@ const app = express();
 
 app.use(cors(
   {
-    origin: "https://saathi.vercel.app",
+    origin: "*",
     methods: ["GET", "POST"],
     credentials: true,
   }
