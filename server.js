@@ -22,6 +22,9 @@ app.use(express.json());
 app.use(cookieParser());
 dotenv.config();
 
+app.get("/", (req, res) => {
+  res.send("Hello to Chat App API");
+});
 app.use("/api/auth", authRoutes);
 app.use("/api/chat", chatRoutes);
 app.use("/api/message", messageRoutes);
